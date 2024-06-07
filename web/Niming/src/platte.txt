@@ -1,0 +1,13 @@
+/* CSS HEX */
+--oxford-blue: #102542ff;
+--bittersweet: #f87060ff;
+--platinum: #cdd7d6ff;
+--khaki: #b3a394ff;
+
+light with bg hsl(45, 56%, 80%)
+
+/* CSS HSL */
+--oxford-blue: hsla(215, 61%, 16%, 1);
+--bittersweet: hsla(6, 92%, 67%, 1);
+--platinum: hsla(174, 11%, 82%, 1);
+--khaki: hsla(29, 17%, 64%, 1);

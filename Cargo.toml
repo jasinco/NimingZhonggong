@@ -1,0 +1,25 @@
+[package]
+name = "preserve"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.5"
+actix-web = "4"
+lettre = "0.11"
+serde = { version = "1.0", features = ["derive"] }
+totp-rs = { version = "5.5.1", features = ["gen_secret", "otpauth"] }
+
+# serde_json is just for the example, not required in general
+serde_json = "1.0"
+derive_more = "0.99.17"
+structsy = "0.5.2"
+structsy-derive = "0.5.2"
+regex = "1.10.4"
+once_cell = "1.19.0"
+tokio = { version = "1.37.0", features = ["sync", "macros", "rt-multi-thread"] }
+actix-session = { version = "0.9.0", features = ["cookie-session"] }
+bcrypt = "0.15.1"
+surrealdb = { version = "1.5.1", features = ["kv-speedb"] }

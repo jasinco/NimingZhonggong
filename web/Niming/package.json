@@ -1,0 +1,26 @@
+{
+  "name": "niming",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "art-qr": "^0.1.2",
+    "axios": "^1.7.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-cookie": "^1.1.4",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "unocss": "^0.60.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

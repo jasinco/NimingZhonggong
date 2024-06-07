@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入</title>
+    <link rel="stylesheet" href="/static/index.css" />
+    <script src="/static/login/index.html"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="nav">
+      <a href="/" id="webname">中工匿名</a>
+      <a href="/login">登入</a>
+      <a href="/register">註冊</a>
+      <a href="/license">服務條款</a>
+    </div>
+
+    <div id="root">
+      <h1>登入</h1>
+      <form>
+        <p>學號</p>
+        <input type="text" name="id" id="id" />
+        <button>確認</button>
+      </form>
+    </div>
+  </body>
+  <style>
+    body {
+      display: grid;
+      place-content: center;
+      margin: 0;
+      width: 100dvw;
+      height: 100dvh;
+    }
+    #root {
+      width: 30dvw;
+      height: 40dvh;
+    }
+    #nav {
+      position: absolute;
+    }
+  </style>
+</html>
